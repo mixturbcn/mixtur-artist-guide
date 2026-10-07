@@ -1249,6 +1249,7 @@ if (
     foodTrigger.onclick =
       (event) => {
         event.preventDefault();
+         event.stopPropagation();
 
         openVenueNearby(
           venue,
@@ -1265,6 +1266,7 @@ if (
     essentialsTrigger.onclick =
       (event) => {
         event.preventDefault();
+         event.stopPropagation();
 
         openVenueNearby(
           venue,
