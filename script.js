@@ -2189,20 +2189,10 @@ function renderTodaySchedule(
             >
 
               <div
-                 class="today-title"
+                 class="today-time"
                >
                  ${escapeHTML(
-                   normalizeText(activity.type) ===
-                     "other"
-                     ? (
-                         activity.title ||
-                         activity.type ||
-                         "Activity"
-                       )
-                     : (
-                         activity.type ||
-                         "Activity"
-                       )
+                   activity.time || ""
                  )}
                </div>
 
@@ -2212,13 +2202,14 @@ function renderTodaySchedule(
               >
 
                 <div
-                  class="today-title"
-                >
-                  ${escapeHTML(
-                    activity.type ||
-                    "Activity"
-                  )}
-                </div>
+                 class="today-title"
+               >
+                 ${escapeHTML(
+                   normalizeText(activity.type) === "other"
+                     ? (activity.title || activity.type || "Activity")
+                     : (activity.type || "Activity")
+                 )}
+               </div>
 
 
                 ${
