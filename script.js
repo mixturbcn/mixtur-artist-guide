@@ -860,38 +860,23 @@ document.addEventListener("DOMContentLoaded", async () => {
 }
 
 
-function openVenueNearby(
-  venue,
-  kind
-) {
-  if (!venue) {
-    return;
-  }
-
+function openVenueNearby(venue, kind) {
+  if (!venue) return;
 
   const items =
     kind === "food"
       ? venue.nearbyFood
       : venue.essentials;
 
-
-  if (
-    !Array.isArray(items) ||
-    !items.length
-  ) {
+  if (!Array.isArray(items) || !items.length) {
     return;
   }
 
-
-  const panel =
-    ensureVenueNearbyPanel();
-
+  const panel = ensureVenueNearbyPanel();
 
   panel.querySelector(
     "[data-venue-nearby-location]"
-  ).textContent =
-    `Near ${venue.name}`;
-
+  ).textContent = `Near ${venue.name}`;
 
   panel.querySelector(
     "[data-venue-nearby-title]"
@@ -900,7 +885,6 @@ function openVenueNearby(
       ? "Nearby food"
       : "Essentials";
 
-
   panel.querySelector(
     "[data-venue-nearby-intro]"
   ).textContent =
@@ -908,104 +892,70 @@ function openVenueNearby(
       ? "Selected recommendations near the venue"
       : "Useful places near the venue";
 
-
-  const list =
-    panel.querySelector(
-      "[data-venue-nearby-list]"
-    );
-
-
-  list.innerHTML =
-    items
-      .map(
-        (item) => `
-          <article
-            class="panel-place"
-          >
-
-            <div
-              class="panel-place-meta"
-            >
-              ${escapeHTML(
-                item.type || ""
-              )}
-            </div>
-
-
-            <h3>
-              ${escapeHTML(
-                item.name || ""
-              )}
-            </h3>
-
-
-            ${
-              item.description
-                ? `
-                  <p>
-                    ${escapeHTML(
-                      item.description
-                    )}
-                  </p>
-                `
-                : ""
-            }
-
-
-            ${
-              item.address
-                ? `
-                  <p
-                    class="venue-nearby-address"
-                  >
-                    ${escapeHTML(
-                      item.address
-                    )}
-                  </p>
-                `
-                : ""
-            }
-
-
-            ${
-              item.maps
-                ? `
-                  <a
-                    href="${escapeHTML(
-                      item.maps
-                    )}"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Open in Maps
-                    <span>→</span>
-                  </a>
-                `
-                : ""
-            }
-
-          </article>
-        `
-      )
-      .join("");
-
-
-  const activityPanel =
-    document.getElementById(
-      "activity-detail-panel"
-    );
-
-
-  closePanel(
-    activityPanel
+  const list = panel.querySelector(
+    "[data-venue-nearby-list]"
   );
 
+  list.innerHTML = items.map((item) => `
+    <article class="panel-place">
 
-  openPanel(
-    panel
+      <div class="panel-place-meta">
+        ${escapeHTML(item.type || "")}
+      </div>
+
+      <h3>
+        ${escapeHTML(item.name || "")}
+      </h3>
+
+      ${
+        item.description
+          ? `<p>${escapeHTML(item.description)}</p>`
+          : ""
+      }
+
+      ${
+        item.address
+          ? `<p class="venue-nearby-address">
+               ${escapeHTML(item.address)}
+             </p>`
+          : ""
+      }
+
+      ${
+        item.maps
+          ? `<a
+               href="${escapeHTML(item.maps)}"
+               target="_blank"
+               rel="noopener noreferrer"
+             >
+               Open in Maps
+               <span>→</span>
+             </a>`
+          : ""
+      }
+
+    </article>
+  `).join("");
+
+  const activityPanel = document.getElementById(
+    "activity-detail-panel"
   );
+
+  if (
+    activityPanel &&
+    activityPanel.classList.contains("open")
+  ) {
+    closePanel(activityPanel);
+  }
+
+  // Allow the previous panel to close before
+  // opening the nearby recommendations.
+  requestAnimationFrame(() => {
+    requestAnimationFrame(() => {
+      openPanel(panel);
+    });
+  });
 }
-
   function activityInfoRows(
     activity = {}
   ) {
