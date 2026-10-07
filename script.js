@@ -2109,12 +2109,22 @@ function renderTodayNextUp(activity) {
       "Activity";
   }
 
-  if (place) {
-    place.textContent =
-      activityLocation(
-        activity
-      );
-  }
+  if (title) {
+  const isOther =
+    normalizeText(activity.type) ===
+    "other";
+
+  title.textContent =
+    isOther
+      ? (
+          activity.title ||
+          activity.type ||
+          "Activity"
+        )
+      : (
+          activity.type ||
+          "Activity"
+        );
 }
    
 /* =========================================
@@ -2178,12 +2188,22 @@ function renderTodaySchedule(
             >
 
               <div
-                class="today-time"
-              >
-                ${escapeHTML(
-                  activity.time || ""
-                )}
-              </div>
+                 class="today-title"
+               >
+                 ${escapeHTML(
+                   normalizeText(activity.type) ===
+                     "other"
+                     ? (
+                         activity.title ||
+                         activity.type ||
+                         "Activity"
+                       )
+                     : (
+                         activity.type ||
+                         "Activity"
+                       )
+                 )}
+               </div>
 
 
               <div
