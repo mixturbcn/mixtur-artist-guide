@@ -1,0 +1,160 @@
+{
+  "id": "rei-nakamura",
+  "artist": {
+    "name": "Rei Nakamura",
+    "category": "Rei Nakamura",
+    "email": "reinakamura77@gmail.com"
+  },
+  "stay": {
+    "arrivalDate": "2026-10-16",
+    "arrivalTime": "08:45",
+    "arrivalPlace": "ESMUC",
+    "departureDate": "2026-10-18",
+    "departureTime": "18:30",
+    "departurePlace": "Fabra i Coats"
+  },
+  "mainContact": {
+    "name": "Catalina Riutort",
+    "role": "Production Assistant",
+    "email": "produccio@mixturbcn.com",
+    "phone": "+34680266911"
+  },
+  "schedule": [
+    {
+      "date": "2026-10-16",
+      "time": "08:45",
+      "type": "Other",
+      "title": "Meeting with Julio",
+      "place": "ESMUC - Orchestra Hall"
+    },
+    {
+      "date": "2026-10-16",
+      "time": "09:30",
+      "type": "Other",
+      "title": "Masterclass & Esmuc Students",
+      "notes": "Joel García Barrett\n- Piano Figures (n. 1 – 5) George Benjamin\n\nPaula Hiraldo\n- Estudi n. 11 «En suspens» Georgy Ligeti\n\nAkari Kimbara\n- Vortex temporum (fragment) de Gérard Grisey \n- The Perilous Night de John Cage",
+      "place": "ESMUC - Orchestra Hall"
+    },
+    {
+      "date": "2026-10-16",
+      "time": "12:30",
+      "type": "Meal",
+      "title": "Lunch"
+    },
+    {
+      "date": "2026-10-16",
+      "time": "13:30",
+      "type": "Other",
+      "title": "Workshop Piano | Ariana Hernandez Vera",
+      "notes": "Béla Bartók: Piano Sonata Sz. 80",
+      "place": "ESMUC - Aula 325"
+    },
+    {
+      "date": "2026-10-16",
+      "time": "14:30",
+      "type": "Other",
+      "title": "Workshop Piano | Max Grimm",
+      "notes": "Beat Furrer: Voicelessness. The snow has no voice",
+      "place": "ESMUC - Aula 325"
+    },
+    {
+      "date": "2026-10-16",
+      "time": "15:45",
+      "type": "Other",
+      "title": "Workshop Piano | Rodrigo Roces",
+      "notes": "Hèctor Parra: Impromptu (2005)",
+      "place": "ESMUC - Aula 325"
+    },
+    {
+      "date": "2026-10-16",
+      "time": "16:45",
+      "type": "Other",
+      "title": "Workshop Piano | Amalia Castoldi",
+      "notes": "Kaija Saariaho: Ballade (2005)",
+      "place": "ESMUC - Aula 325"
+    },
+    {
+      "date": "2026-10-16",
+      "time": "18:00",
+      "type": "Other",
+      "title": "Workshop Piano | Silvia Giliberto",
+      "notes": "Tristan Murail: Murail\nBeat Furrer: Studie für Klavier (2011)",
+      "place": "ESMUC - Aula 325"
+    },
+    {
+      "date": "2026-10-17",
+      "time": "08:45",
+      "type": "Rehearsal",
+      "title": "Students Rehearsals (not mandatory to assist)",
+      "notes": "8:45 - 9:15 | Ariana Hernandez Vera\n9:15 - 9:45 | Max Grimm\n9:45 - 10:15 | Rodrigo Roces\n10:15 - 10:45 | Amalia Castoldi\n10:45 - 11:15 | Silvia Giliberto",
+      "venue": "ESMUC",
+      "room": "Choir Hall"
+    },
+    {
+      "date": "2026-10-17",
+      "time": "12:00",
+      "type": "Rehearsal",
+      "title": "Concert | Workshop Piano",
+      "notes": "Ariana Hernandez Vera\n- Der Rote Faden III (2012), Nuria Núñez Hierro (ES) – 8′ \n- Where the Ground Ends (2026), Hei Lam Cheung (HK) – 2’\n\nMax Grimm\n- Voicelessness.the snow has no voice, Beat Furrer (CH) – 10′ \n- Minutiae (2026), Xu Dong (CN) – 2’ \n\nRodrigo Roces\n- DABKET ZAYNO (2026), Wajdi Abou Diab (IRN) – 2′ \n- Impromptu (2005), Hèctor Parra (Catalunya) – 4′\n\nAmalia Castoldi\n- Kaija Saariaho (1952-2023). Ballade (2005)\n- Preludio en forma de taza (2026), Luis Eduardo Trillo Becerra (MX)\n\nSilvia Giliberto\n- Studie für Klavier (2011), Beat Furrer (CH) – 7′\n- What the Krebs (2026), Laehwang Jang (KR) – 2’",
+      "venue": "ESMUC",
+      "room": "Choir Hall",
+      "callTime": "11:45"
+    },
+    {
+      "date": "2026-10-17",
+      "time": "14:00",
+      "type": "Meal",
+      "title": "Lunch"
+    },
+    {
+      "date": "2026-10-17",
+      "time": "14:30",
+      "type": "Travel",
+      "title": "Metro L1 | ESMUC > Fabra i Coats",
+      "from": "ESMUC",
+      "to": "Fabra i Coats",
+      "transport": "Metro L1 (Marina Station to Fabra i Coats Station)"
+    },
+    {
+      "date": "2026-10-17",
+      "time": "15:00",
+      "type": "Other",
+      "title": "Round Table | New Voices, New Challenges: Creating Music in Europe",
+      "notes": "14:45 - Doors Open",
+      "place": "Fabra i Coats - Sala d'Actes"
+    },
+    {
+      "date": "2026-10-18",
+      "time": "09:30",
+      "type": "Rehearsal",
+      "title": "Set up",
+      "venue": "Fabra i Coats",
+      "room": "Polivalent 2",
+      "callTime": "09:15"
+    },
+    {
+      "date": "2026-10-18",
+      "time": "10:30",
+      "type": "Rehearsal",
+      "title": "Rehearsal",
+      "venue": "Fabra i Coats",
+      "room": "Polivalent 2"
+    },
+    {
+      "date": "2026-10-18",
+      "time": "17:30",
+      "type": "Performance",
+      "title": "Concert Rei Nakamura",
+      "venue": "Fabra i Coats",
+      "room": "Polivalent 2",
+      "callTime": "17:00"
+    },
+    {
+      "date": "2026-10-25",
+      "time": "18:00",
+      "type": "Other",
+      "title": "Mixtur Final Party",
+      "place": "Sala Taro"
+    }
+  ]
+}

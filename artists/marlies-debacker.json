@@ -1,0 +1,100 @@
+{
+  "id": "marlies-debacker",
+  "artist": {
+    "name": "Marlies Debacker",
+    "category": "Trio Abstrakt",
+    "email": "marlies.debacker@gmail.com"
+  },
+  "stay": {
+    "arrivalDate": "2026-10-22",
+    "arrivalTime": "11:00",
+    "arrivalPlace": "ESMUC",
+    "departureDate": "2026-10-23",
+    "departureTime": "20:00",
+    "departurePlace": "L'Auditori"
+  },
+  "mainContact": {
+    "name": "Catalina Riutort",
+    "role": "Production Assistant",
+    "email": "produccio@mixturbcn.com",
+    "phone": "+34680266911"
+  },
+  "schedule": [
+    {
+      "date": "2026-10-22",
+      "time": "11:00",
+      "type": "Reading Session",
+      "title": "Reading Session | Eli Simić-Prošić",
+      "venue": "ESMUC",
+      "room": "Aula 106",
+      "callTime": "10:45"
+    },
+    {
+      "date": "2026-10-22",
+      "time": "12:00",
+      "type": "Reading Session",
+      "title": "Reading Session | Tomás Santiago Pisano",
+      "venue": "ESMUC",
+      "room": "Aula 106"
+    },
+    {
+      "date": "2026-10-22",
+      "time": "13:00",
+      "type": "Reading Session",
+      "title": "Reading Session | Kelly Lai",
+      "venue": "ESMUC",
+      "room": "Sala 106"
+    },
+    {
+      "date": "2026-10-22",
+      "time": "18:30",
+      "type": "Rehearsal",
+      "title": "Rehearsal",
+      "venue": "ESMUC",
+      "room": "Choir Hall",
+      "callTime": "18:00"
+    },
+    {
+      "date": "2026-10-22",
+      "time": "19:30",
+      "type": "Rehearsal",
+      "title": "Rehearsal with Mingjie Bi (Miniature)",
+      "venue": "ESMUC",
+      "room": "Choir Hall"
+    },
+    {
+      "date": "2026-10-22",
+      "time": "20:00",
+      "type": "Rehearsal",
+      "title": "Rehearsal with Yu Xu",
+      "venue": "ESMUC",
+      "room": "Choir Hall"
+    },
+    {
+      "date": "2026-10-23",
+      "time": "10:30",
+      "type": "Rehearsal",
+      "title": "Rehearsal",
+      "venue": "L'Auditori",
+      "room": "Sala 4",
+      "callTime": "10:15"
+    },
+    {
+      "date": "2026-10-23",
+      "time": "19:00",
+      "type": "Performance",
+      "title": "Concert | Trio Abstrakt",
+      "notes": "18:30 - Doors Open",
+      "venue": "L'Auditori",
+      "room": "Sala 4",
+      "callTime": "18:30"
+    },
+    {
+      "date": "2026-10-25",
+      "time": "18:00",
+      "type": "Other",
+      "title": "Mixtur Final Party",
+      "place": "Sala Taro"
+    }
+  ]
+}

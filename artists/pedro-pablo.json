@@ -1,0 +1,100 @@
+{
+  "id": "pedro-pablo",
+  "artist": {
+    "name": "Pedro Pablo",
+    "category": "Pedro Pablo Cámara",
+    "email": "pedropablocamara@gmail.com"
+  },
+  "stay": {
+    "arrivalDate": "2026-10-16",
+    "arrivalTime": "19:00",
+    "arrivalPlace": "Fabra i Coats - Polivalent 1",
+    "departureDate": "2026-10-18",
+    "departureTime": "14:00",
+    "departurePlace": "ESMUC"
+  },
+  "mainContact": {
+    "name": "Catalina Riutort",
+    "role": "Production Assistant",
+    "email": "produccio@mixturbcn.com",
+    "phone": "+34680266911"
+  },
+  "schedule": [
+    {
+      "date": "2026-10-16",
+      "time": "19:00",
+      "type": "Rehearsal",
+      "title": "Rehearsal with Luis Torres",
+      "venue": "Fabra i Coats",
+      "room": "Polivalent 1",
+      "callTime": "18:45"
+    },
+    {
+      "date": "2026-10-16",
+      "time": "19:45",
+      "type": "Rehearsal",
+      "title": "Rehearsal with Massimiliano Vizzini",
+      "venue": "Fabra i Coats",
+      "room": "Polivalent 1"
+    },
+    {
+      "date": "2026-10-16",
+      "time": "20:30",
+      "type": "Rehearsal",
+      "title": "Rehearsal without composers",
+      "venue": "Fabra i Coats",
+      "room": "Polivalent 1"
+    },
+    {
+      "date": "2026-10-17",
+      "time": "17:00",
+      "type": "Rehearsal",
+      "title": "Line checks",
+      "venue": "Fabra i Coats",
+      "room": "Polivalent 1",
+      "callTime": "16:45"
+    },
+    {
+      "date": "2026-10-17",
+      "time": "18:30",
+      "type": "Performance",
+      "title": "Concert | Pedro Pablo Cámara - Carolina Santiago - Minten & González",
+      "notes": "3 concerts in a row:\nPedro Pablo Cámara [19:00 - 19:30]\nCarolina Santiago [19:00 - 19:30]\nMinten&Gonzalez [19:30 - 20:00]",
+      "venue": "Fabra i Coats",
+      "room": "Polivalent 1",
+      "callTime": "18:00"
+    },
+    {
+      "date": "2026-10-18",
+      "time": "11:00",
+      "type": "Reading Session",
+      "title": "Reading Session | Stephanie Macchi",
+      "venue": "ESMUC",
+      "room": "Aula 322",
+      "callTime": "10:45"
+    },
+    {
+      "date": "2026-10-18",
+      "time": "12:00",
+      "type": "Reading Session",
+      "title": "Reading Session | German Pérez Tort",
+      "venue": "ESMUC",
+      "room": "Aula 322"
+    },
+    {
+      "date": "2026-10-18",
+      "time": "13:00",
+      "type": "Reading Session",
+      "title": "Reading Session | Sofiia Lozina",
+      "venue": "ESMUC",
+      "room": "Aula 322"
+    },
+    {
+      "date": "2026-10-25",
+      "time": "18:00",
+      "type": "Other",
+      "title": "Mixtur Final Party",
+      "place": "Sala Taro"
+    }
+  ]
+}

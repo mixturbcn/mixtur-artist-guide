@@ -1,0 +1,75 @@
+{
+  "id": "carolina-santiago",
+  "artist": {
+    "name": "Carolina Santiago",
+    "category": "Carolina Santiago",
+    "email": "carollpiano@hotmail.com"
+  },
+  "stay": {
+    "arrivalDate": "2026-10-17",
+    "arrivalTime": "09:00",
+    "arrivalPlace": "Fabra i Coats - Polivalent 1",
+    "departureDate": "2026-10-18",
+    "departureTime": "13:00",
+    "departurePlace": "ESMUC"
+  },
+  "mainContact": {
+    "name": "Catalina Riutort",
+    "role": "Production Assistant",
+    "email": "produccio@mixturbcn.com",
+    "phone": "+34680266911"
+  },
+  "schedule": [
+    {
+      "date": "2026-10-17",
+      "time": "09:00",
+      "type": "Rehearsal",
+      "title": "Rehearsal",
+      "venue": "Fabra i Coats",
+      "room": "Polivalent 1",
+      "callTime": "08:45"
+    },
+    {
+      "date": "2026-10-17",
+      "time": "18:30",
+      "type": "Performance",
+      "title": "Concert | Pedro Pablo Cámara - Carolina Santiago - Minten & González",
+      "notes": "3 concerts in a row:\nPedro Pablo Cámara [19:00 - 19:30]\nCarolina Santiago [19:00 - 19:30]\nMinten&Gonzalez [19:30 - 20:00]",
+      "venue": "Fabra i Coats",
+      "room": "Polivalent 1",
+      "callTime": "18:00"
+    },
+    {
+      "date": "2026-10-18",
+      "time": "10:00",
+      "type": "Reading Session",
+      "title": "Reading Sessions | Kelly Lai",
+      "venue": "ESMUC",
+      "room": "Aula 325",
+      "callTime": "09:45"
+    },
+    {
+      "date": "2026-10-18",
+      "time": "11:00",
+      "type": "Reading Session",
+      "title": "Reading Sessions | Lizaveta Loban",
+      "venue": "ESMUC",
+      "room": "Aula 325"
+    },
+    {
+      "date": "2026-10-18",
+      "time": "12:00",
+      "type": "Reading Session",
+      "title": "Reading Sessions | Periklis Sdravopoulos",
+      "venue": "ESMUC",
+      "room": "Aula 325"
+    },
+    {
+      "date": "2026-10-25",
+      "time": "18:00",
+      "type": "Other",
+      "title": "Mixtur Final Party",
+      "place": "Sala Taro"
+    }
+  ]
+}

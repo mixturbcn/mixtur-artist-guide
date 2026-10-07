@@ -1,0 +1,50 @@
+{
+  "id": "rebecca-minten",
+  "artist": {
+    "name": "Rebecca Minten",
+    "category": "Duo Minten-González",
+    "email": "mintenrebecca@gmail.com"
+  },
+  "stay": {
+    "arrivalDate": "2026-10-16",
+    "arrivalTime": "17:30",
+    "arrivalPlace": "Fabra i Coats",
+    "departureDate": "2026-10-17",
+    "departureTime": "20:00",
+    "departurePlace": "Fabra i Coats"
+  },
+  "mainContact": {
+    "name": "Catalina Riutort",
+    "role": "Production Assistant",
+    "email": "produccio@mixturbcn.com",
+    "phone": "+34680266911"
+  },
+  "schedule": [
+    {
+      "date": "2026-10-16",
+      "time": "17:30",
+      "type": "Rehearsal",
+      "title": "Rehearsal",
+      "venue": "Fabra i Coats",
+      "room": "Polivalent 1",
+      "callTime": "17:15"
+    },
+    {
+      "date": "2026-10-17",
+      "time": "18:30",
+      "type": "Performance",
+      "title": "Concert | Pedro Pablo Cámara - Carolina Santiago - Minten & González",
+      "notes": "3 concerts in a row:\nPedro Pablo Cámara [18:30 - 19:00]\nCarolina Santiago [19:00 - 19:30]\nMinten-González [19:30 - 20:00]",
+      "venue": "Fabra i Coats",
+      "room": "Polivalent 1",
+      "callTime": "18:00"
+    },
+    {
+      "date": "2026-10-25",
+      "time": "18:00",
+      "type": "Other",
+      "title": "Mixtur Final Party",
+      "place": "Sala Taro"
+    }
+  ]
+}

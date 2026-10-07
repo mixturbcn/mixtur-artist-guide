@@ -1,0 +1,84 @@
+{
+  "id": "carlota-caceres",
+  "artist": {
+    "name": "Carlota Cáceres",
+    "category": "Carlota Cáceres",
+    "email": "carlotapercu@gmail.com"
+  },
+  "stay": {
+    "arrivalDate": "2026-10-17",
+    "arrivalTime": "15:00",
+    "arrivalPlace": "Fabra i Coats",
+    "departureDate": "2026-10-25",
+    "departureTime": "13:00",
+    "departurePlace": "Santa Mònica"
+  },
+  "mainContact": {
+    "name": "Catalina Riutort",
+    "role": "Production Assistant",
+    "email": "produccio@mixturbcn.com",
+    "phone": "+34680266911"
+  },
+  "schedule": [
+    {
+      "date": "2026-10-17",
+      "time": "15:00",
+      "type": "Other",
+      "title": "Round Table #2",
+      "notes": "Room: Sala d'Actes\nDoors open at 14:45",
+      "place": "Fabra i Coats"
+    },
+    {
+      "date": "2026-10-24",
+      "time": "15:00",
+      "type": "Rehearsal",
+      "title": "Rehearsal",
+      "notes": "Set up at 14:00h (in case you want to be there a little bit earlier, we will be there)",
+      "venue": "Santa Mònica",
+      "room": "Sala d'Actes",
+      "callTime": "14:45"
+    },
+    {
+      "date": "2026-10-24",
+      "time": "18:30",
+      "type": "Rehearsal",
+      "title": "Rehearsal with Marta Domingues (Miniature)",
+      "venue": "Santa Mònica",
+      "room": "Sala d'Actes"
+    },
+    {
+      "date": "2026-10-24",
+      "time": "19:15",
+      "type": "Rehearsal",
+      "title": "Rehearsal with Siyeol Ju (Miniature)",
+      "venue": "Santa Mònica",
+      "room": "Sala d'Actes"
+    },
+    {
+      "date": "2026-10-25",
+      "time": "09:30",
+      "type": "Rehearsal",
+      "title": "Rehearsal",
+      "venue": "Santa Mònica",
+      "room": "Sala d'Actes",
+      "callTime": "09:15"
+    },
+    {
+      "date": "2026-10-25",
+      "time": "12:00",
+      "type": "Performance",
+      "title": "Concert | Carola Cáceres",
+      "notes": "Doors open at 11:30h",
+      "venue": "Santa Mònica",
+      "room": "Sala d'Actes",
+      "callTime": "11:30"
+    },
+    {
+      "date": "2026-10-25",
+      "time": "18:00",
+      "type": "Other",
+      "title": "Mixtur Final Party",
+      "place": "Sala Taro"
+    }
+  ]
+}

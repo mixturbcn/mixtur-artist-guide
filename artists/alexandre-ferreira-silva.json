@@ -1,0 +1,75 @@
+{
+  "id": "alexandre-ferreira-silva",
+  "artist": {
+    "name": "Alexandre Ferreira Silva",
+    "category": "Trio Abstrakt",
+    "email": "alexandre.sarraipa@gmail.com"
+  },
+  "stay": {
+    "arrivalDate": "2026-10-22",
+    "arrivalTime": "18:30",
+    "arrivalPlace": "ESMUC - Choir Hall",
+    "departureDate": "2026-10-23",
+    "departureTime": "20:00",
+    "departurePlace": "L'auditori - Sala 4"
+  },
+  "mainContact": {
+    "name": "Catalina Riutort",
+    "role": "Production Assistant",
+    "email": "produccio@mixturbcn.com",
+    "phone": "+34680266911"
+  },
+  "schedule": [
+    {
+      "date": "2026-10-22",
+      "time": "18:30",
+      "type": "Rehearsal",
+      "title": "Rehearsal",
+      "venue": "ESMUC",
+      "room": "Choir Hall",
+      "callTime": "18:00"
+    },
+    {
+      "date": "2026-10-22",
+      "time": "19:30",
+      "type": "Rehearsal",
+      "title": "Rehearsal with Mingjie Bi (Miniature)",
+      "venue": "ESMUC",
+      "room": "Choir Hall"
+    },
+    {
+      "date": "2026-10-22",
+      "time": "20:00",
+      "type": "Rehearsal",
+      "title": "Rehearsal with Yu Xu (Miniature)",
+      "venue": "ESMUC",
+      "room": "Choir Hall"
+    },
+    {
+      "date": "2026-10-23",
+      "time": "10:30",
+      "type": "Rehearsal",
+      "title": "Rehearsal",
+      "venue": "L'Auditori",
+      "room": "Sala 4",
+      "callTime": "10:00"
+    },
+    {
+      "date": "2026-10-23",
+      "time": "19:00",
+      "type": "Performance",
+      "title": "Concert | Trio Abstrakt",
+      "notes": "18:30 - Open Doors",
+      "venue": "L'Auditori",
+      "room": "Sala 4",
+      "callTime": "18:30"
+    },
+    {
+      "date": "2026-10-25",
+      "time": "18:00",
+      "type": "Other",
+      "title": "Mixtur Final Party",
+      "place": "Sala Taro"
+    }
+  ]
+}
