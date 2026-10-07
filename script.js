@@ -690,7 +690,7 @@ document.addEventListener("DOMContentLoaded", async () => {
                   >
                   
                     <a
-                      href="#"
+                      href="javascript:void(0)"
                       data-activity-nearby-food
                     >
                       Nearby food
@@ -698,7 +698,7 @@ document.addEventListener("DOMContentLoaded", async () => {
                     </a>
                   
                     <a
-                      href="#"
+                      href="javascript:void(0)"
                       data-activity-nearby-essentials
                     >
                       Essentials
