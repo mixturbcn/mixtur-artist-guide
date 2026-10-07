@@ -937,7 +937,7 @@ function openVenueNearby(venue, kind) {
     </article>
   `).join("");
 
-  const activityPanel = document.getElementById(
+   const activityPanel = document.getElementById(
     "activity-detail-panel"
   );
 
@@ -945,17 +945,17 @@ function openVenueNearby(venue, kind) {
     activityPanel &&
     activityPanel.classList.contains("open")
   ) {
-    closePanel(activityPanel);
+    activityPanel.classList.remove("open");
+
+    activityPanel.setAttribute(
+      "aria-hidden",
+      "true"
+    );
   }
 
-  // Allow the previous panel to close before
-  // opening the nearby recommendations.
-  requestAnimationFrame(() => {
-    requestAnimationFrame(() => {
-      openPanel(panel);
-    });
-  });
+  openPanel(panel);
 }
+   
   function activityInfoRows(
     activity = {}
   ) {
