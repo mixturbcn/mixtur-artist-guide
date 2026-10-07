@@ -2125,6 +2125,7 @@ function renderTodayNextUp(activity) {
           activity.type ||
           "Activity"
         );
+  }
 }
    
 /* =========================================
