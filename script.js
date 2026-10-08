@@ -2839,6 +2839,13 @@ artistData.schedule.forEach((activity) => {
   if (activity.venue && venueData[activity.venue]) {
     myVenueNames.add(activity.venue);
   }
+
+  if (
+    activity.place === "Sala Taro" &&
+    venueData["Sala Taro"]
+  ) {
+    myVenueNames.add("Sala Taro");
+  }
 });
 
 const venueNames = Object.keys(window.MIXTUR_VENUES || {});
