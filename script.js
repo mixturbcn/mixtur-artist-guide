@@ -2661,124 +2661,73 @@ function formatTodayHeading(
      PLACES · FILTERS
      ========================================= */
 
-  function initPlacesFilters() {
-    const filterButtons =
-      document.querySelectorAll(
-        ".place-filter, .filter-button"
-      );
+  
+function initPlacesFilters() {
+  const filterButtons = document.querySelectorAll(
+    ".place-filter, .filter-button"
+  );
 
+  const placeCards = document.querySelectorAll(
+    ".featured-place, .place-card"
+  );
 
-    const placeCards =
-      document.querySelectorAll(
-        ".featured-place, .place-card"
-      );
-
-
-    if (
-      !filterButtons.length ||
-      !placeCards.length
-    ) {
-      return;
-    }
-
-
-    filterButtons.forEach(
-      (button) => {
-        button.addEventListener(
-          "click",
-          () => {
-            const filter =
-              button.dataset.filter ||
-              normalizeText(
-                button.textContent
-              );
-
-
-            filterButtons.forEach(
-              (item) => {
-                item.classList.remove(
-                  "active"
-                );
-              }
-            );
-
-
-            button.classList.add(
-              "active"
-            );
-
-
-            placeCards.forEach(
-              (card) => {
-                const category =
-                  normalizeText(
-                    card.dataset
-                      .category || ""
-                  );
-
-
-                const hasFood =
-                  card.dataset.food ===
-                  "true";
-
-
-                let visible = false;
-
-
-                if (
-                  filter === "all"
-                ) {
-                  visible = true;
-                }
-
-
-                if (
-                  filter ===
-                    "venues" ||
-                  filter ===
-                    "venue"
-                ) {
-                  visible =
-                    category ===
-                      "venues" ||
-                    category ===
-                      "venue";
-                }
-
-
-                if (
-                  filter === "food"
-                ) {
-                  visible =
-                    hasFood ||
-                    category ===
-                      "food";
-                }
-
-
-                if (
-                  filter === "other"
-                ) {
-                  visible =
-                    category ===
-                    "other";
-                }
-
-
-                card.hidden =
-                  !visible;
-
-                card.style.display =
-                  visible
-                    ? ""
-                    : "none";
-              }
-            );
-          }
-        );
-      }
-    );
+  if (!filterButtons.length || !placeCards.length) {
+    return;
   }
+
+  function applyFilter(filter) {
+    filterButtons.forEach((button) => {
+      button.classList.toggle(
+        "active",
+        button.dataset.filter === filter
+      );
+    });
+
+    placeCards.forEach((card) => {
+      const isMyVenue =
+        card.dataset.myVenue === "true";
+
+      const hasFood =
+        card.dataset.food === "true";
+
+      const isSalaTaro =
+        card.dataset.venue === "Sala Taro";
+
+      const isHotel =
+        card.dataset.artistHotel === "true";
+
+      let visible = false;
+
+      if (filter === "all") {
+        visible = true;
+      } else if (filter === "venues") {
+        visible = isMyVenue;
+      } else if (filter === "food") {
+        visible = isMyVenue && hasFood;
+      } else if (filter === "other") {
+        visible = isMyVenue && isSalaTaro;
+      }
+
+      // Keep the artist's hotel available
+      // through the My Hotel quick-access link.
+      if (isHotel && filter === "all") {
+        visible = true;
+      }
+
+      card.hidden = !visible;
+      card.style.display = visible ? "" : "none";
+    });
+  }
+
+  filterButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      applyFilter(button.dataset.filter);
+    });
+  });
+
+  applyFilter("all");
+}
+
 
 
   /* =========================================
@@ -2929,32 +2878,17 @@ function renderVenueDataInPlaces() {
      UNIQUE VENUES FROM ARTIST SCHEDULE
      ----------------------------------------- */
 
-  const venueNames = [];
+  
+const myVenueNames = new Set();
 
+artistData.schedule.forEach((activity) => {
+  if (activity.venue && venueData[activity.venue]) {
+    myVenueNames.add(activity.venue);
+  }
+});
 
-  artistData.schedule.forEach(
-    (activity) => {
+const venueNames = Object.keys(venueData);
 
-      const venueName =
-        activity.venue;
-
-
-      if (
-        !venueName ||
-        !venueData[venueName] ||
-        venueNames.includes(
-          venueName
-        )
-      ) {
-        return;
-      }
-
-
-      venueNames.push(
-        venueName
-      );
-    }
-  );
 
 
   /* -----------------------------------------
@@ -2989,6 +2923,8 @@ function renderVenueDataInPlaces() {
           return `
             <article
               class="featured-place"
+               data-venue="${escapeHTML(venueName)}"
+               data-my-venue="${myVenueNames.has(venueName) ? "true" : "false"}"
               data-category="${
                 venueName === "Sala Taro"
                   ? "other"
