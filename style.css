@@ -4077,45 +4077,47 @@ span:nth-child(even) {
   display: none;
 }
 
+
 /* =========================================
    WELCOME · ADAPTIVE ARTIST NAME
    ========================================= */
 
 .welcome {
+  width: 100%;
+  max-width: 100%;
   overflow: visible;
+
+  font-size: clamp(2.6rem, 10vw, 3.5rem);
+  line-height: 0.98;
+  letter-spacing: -0.035em;
 }
 
-/* Base · short artist names */
 .welcome-artist-name {
-  display: inline-block;
+  display: block;
+  width: 100%;
   max-width: 100%;
+
+  white-space: normal;
   overflow-wrap: normal;
   word-break: normal;
 }
 
 /* Medium artist names */
 .welcome.welcome-medium {
-  font-size: 1.12em;
-  line-height: 0.94;
-}
-
-.welcome.welcome-medium .welcome-artist-name {
-  display: inline-block;
-  max-width: 88%;
-  white-space: normal;
+  font-size: clamp(2.4rem, 9.2vw, 3.2rem);
+  line-height: 1;
 }
 
 /* Long artist names */
 .welcome.welcome-long {
-  font-size: 1.55em;
-  line-height: 0.9;
+  font-size: clamp(1.9rem, 7.5vw, 2.7rem);
+  line-height: 1.04;
 }
 
+.welcome.welcome-medium .welcome-artist-name,
 .welcome.welcome-long .welcome-artist-name {
   display: block;
-  width: 68%;
-  max-width: 68%;
-  white-space: normal;
-  overflow-wrap: normal;
-  word-break: normal;
+  width: 100%;
+  max-width: 100%;
 }
+
