@@ -1149,20 +1149,14 @@ if (
 
 
     if (mapsURL) {
-      mapLink.href =
-        mapsURL;
-
-      mapLink.hidden =
-        false;
-
-    } else {
-      mapLink.removeAttribute(
-        "href"
-      );
-
-      mapLink.hidden =
-        true;
-    }
+  mapLink.href = mapsURL;
+  mapLink.hidden = false;
+  mapLink.style.display = "";
+} else {
+  mapLink.removeAttribute("href");
+  mapLink.hidden = true;
+  mapLink.style.display = "none";
+}
 
    const nearbyBlock =
   panel.querySelector(
@@ -1200,8 +1194,8 @@ if (
   nearbyBlock &&
   (hasFood || hasEssentials)
 ) {
-  nearbyBlock.hidden =
-    false;
+  nearbyBlock.hidden = false;
+nearbyBlock.style.display = "";
 
 
   if (foodTrigger) {
@@ -1236,10 +1230,10 @@ if (
         );
       };
   }
-
+   
 } else if (nearbyBlock) {
-  nearbyBlock.hidden =
-    true;
+  nearbyBlock.hidden = true;
+  nearbyBlock.style.display = "none";
 }
      
     openPanel(panel);
