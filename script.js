@@ -827,9 +827,11 @@ document.addEventListener("DOMContentLoaded", async () => {
 
 
   panel =
-    document.getElementById(
-      "venue-nearby-panel"
-    );
+  document.getElementById(
+    "venue-nearby-panel"
+  );
+
+panel.style.zIndex = "600";
 
 
   panel
