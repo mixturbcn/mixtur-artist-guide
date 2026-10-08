@@ -2841,7 +2841,7 @@ artistData.schedule.forEach((activity) => {
   }
 });
 
-const venueNames = Object.keys(venueData);
+const venueNames = Object.keys(window.MIXTUR_VENUES || {});
 
 
 
