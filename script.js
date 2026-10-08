@@ -831,7 +831,6 @@ document.addEventListener("DOMContentLoaded", async () => {
     "venue-nearby-panel"
   );
 
-panel.style.zIndex = "600";
 
 
   panel
@@ -1075,14 +1074,7 @@ function openVenueNearby(venue, kind) {
       ]
     : null;
 
-     alert(
-  "TYPE: " + activity.type +
-  "\nVENUE: " + activity.venue +
-  "\nFOUND: " + Boolean(venue) +
-  "\nFOOD: " + (venue?.nearbyFood?.length || 0) +
-  "\nESSENTIALS: " + (venue?.essentials?.length || 0)
-);
-
+   
 
 const imageWrapper =
   panel.querySelector(
