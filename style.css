@@ -4121,3 +4121,12 @@ span:nth-child(even) {
   max-width: 100%;
 }
 
+
+/* =========================================
+   PLACES · HIDE DECORATIVE ARROWS
+   ========================================= */
+
+.places-list .place-arrow,
+.places-list .compact-place-arrow {
+  display: none;
+}
