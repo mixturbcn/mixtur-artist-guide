@@ -287,57 +287,17 @@ document.addEventListener("DOMContentLoaded", async () => {
     return "";
   }
 
-
-  function getMapsURL(
-    activity = {}
+  
+function getMapsURL(activity = {}) {
+  if (
+    activity.venue &&
+    venueData[activity.venue]?.maps
   ) {
-    if (
-      activity.venue &&
-      venueData[activity.venue]
-    ) {
-      return (
-        venueData[
-          activity.venue
-        ].maps
-      );
-    }
-
-
-    if (activity.hotel) {
-      const query =
-        artistData?.hotel?.address ||
-        activity.hotel;
-
-      return (
-        "https://www.google.com/maps/search/?api=1&query=" +
-        encodeURIComponent(query)
-      );
-    }
-
-
-    if (activity.place) {
-      return (
-        "https://www.google.com/maps/search/?api=1&query=" +
-        encodeURIComponent(
-          activity.place +
-          " Barcelona"
-        )
-      );
-    }
-
-
-    if (activity.to) {
-      return (
-        "https://www.google.com/maps/search/?api=1&query=" +
-        encodeURIComponent(
-          activity.to
-        )
-      );
-    }
-
-
-    return "";
+    return venueData[activity.venue].maps;
   }
+
+  return "";
+}
 
 
   function internalHref(
