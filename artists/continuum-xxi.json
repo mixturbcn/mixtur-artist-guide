@@ -22,15 +22,6 @@
   "schedule": [
     {
       "date": "2026-10-14",
-      "time": "10:00",
-      "type": "Other",
-      "title": "Set-up",
-      "venue": "Museu de la Música",
-      "room": "Sala de Teclats",
-      "notes": "10:00 - 12:00. Harpsichord tuning takes place during set-up."
-    },
-    {
-      "date": "2026-10-14",
       "time": "10:30",
       "type": "Other",
       "title": "Harpsichord tuning 1",
