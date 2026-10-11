@@ -1,0 +1,48 @@
+{
+  "id": "fail-again-co",
+  "artist": {
+    "name": "FAIL AGAIN & Co",
+    "category": "FAIL AGAIN & Co"
+  },
+  "stay": {
+    "arrivalDate": "2026-10-17",
+    "arrivalTime": "15:00",
+    "arrivalPlace": "Fabra i Coats",
+    "departurePlace": "Fabra i Coats"
+  },
+  "mainContact": {
+    "name": "Susana Bautista",
+    "role": "Production Manager",
+    "email": "susana.bautista@mixturbcn.com",
+    "phone": "+34654752209"
+  },
+  "schedule": [
+    {
+      "date": "2026-10-17",
+      "time": "15:00",
+      "type": "Rehearsal",
+      "title": "Set-up",
+      "notes": "Sala d’assaigs 1\n16:00 - 17:00",
+      "venue": "Fabra i Coats",
+      "callTime": "15:00"
+    },
+    {
+      "date": "2026-10-17",
+      "time": "17:00",
+      "type": "Performance",
+      "title": "Concert Fail Again & Co",
+      "notes": "17:00 - 18:00",
+      "venue": "Fabra i Coats",
+      "room": "Surroundings of the venue",
+      "callTime": "16:45"
+    },
+    {
+      "date": "2026-10-17",
+      "time": "18:00",
+      "type": "Other",
+      "title": "Load-out",
+      "notes": "Sala d'assaigs 1\n18:00 - 18:30",
+      "place": "Fabra i Coats"
+    }
+  ]
+}
