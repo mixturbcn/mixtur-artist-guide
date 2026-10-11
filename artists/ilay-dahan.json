@@ -1,0 +1,318 @@
+{
+  "id": "ilay-dahan",
+  "artist": {
+    "name": "Ilay Dahan",
+    "category": "ULYSSES Ensemble",
+    "email": ""
+  },
+  "stay": {
+    "arrivalDate": "2026-10-15",
+    "arrivalTime": "00:45",
+    "arrivalPlace": "Barcelona Airport",
+    "departureDate": "2026-10-18",
+    "departureTime": "10:20",
+    "departurePlace": "Barcelona Airport"
+  },
+  "mainContact": {
+    "name": "Flavio de Sá",
+    "role": "Production Assistant",
+    "email": "produccio@mixturbcn.com",
+    "phone": "+34689211975"
+  },
+  "hotel": {
+    "name": "Hotel Sant Pau",
+    "address": "Carrer de Sant Antoni Maria Claret, 173, 08041 Barcelona",
+    "url": "https://www.hotelsantpau.com/",
+    "checkIn": "From 13:00",
+    "checkOut": "Before 12:00",
+    "reception": "Open 24 hours",
+    "luggage": "Luggage storage available for arrivals before check-in",
+    "mapUrl": "https://maps.app.goo.gl/Q8s8csRqkAisB35i9"
+  },
+  "schedule": [
+    {
+      "date": "2026-10-14",
+      "time": "22:00",
+      "type": "Travel",
+      "title": "Flight to Barcelona",
+      "venue": "Berlin",
+      "notes": "Vueling VY1887 · Berlin → Barcelona · Arrival 15/10 00:45. Flight check-in / bag drop: consult airline instructions.",
+      "callTime": "20:00"
+    },
+    {
+      "date": "2026-10-15",
+      "type": "Other",
+      "title": "Hotel check-in · Hotel Sant Pau",
+      "venue": "Hotel Sant Pau",
+      "notes": "Estimated arrival at the hotel, around one hour after landing. Overnight arrival: reception is open 24 hours, but please confirm that your room is reserved for this night and available on arrival. Standard check-in from 13:00. This is not a confirmed appointment. Open in Maps for directions.",
+      "mapUrl": "https://maps.app.goo.gl/Q8s8csRqkAisB35i9",
+      "time": "01:45"
+    },
+    {
+      "date": "2026-10-15",
+      "time": "10:00",
+      "type": "Rehearsal",
+      "title": "Rehearsal with Carolina Cerezo",
+      "venue": "Fabra i Coats",
+      "room": "Polivalent 2",
+      "notes": "10:00 - 12:30; no electronics",
+      "callTime": "09:55"
+    },
+    {
+      "date": "2026-10-15",
+      "time": "12:30",
+      "type": "Meal",
+      "title": "Lunch break – Ensemble",
+      "notes": "12:30 - 14:30; electronics tests with Matéo Fayet take place during this period",
+      "callTime": "12:25"
+    },
+    {
+      "date": "2026-10-15",
+      "time": "12:30",
+      "type": "Other",
+      "title": "Electronics tests with Matéo Fayet",
+      "venue": "Fabra i Coats",
+      "room": "Polivalent 2",
+      "notes": "12:30 - 14:30; takes place at the same time as the ensemble lunch break",
+      "callTime": "12:25"
+    },
+    {
+      "date": "2026-10-15",
+      "time": "14:30",
+      "type": "Rehearsal",
+      "title": "Rehearsal with Luca Francesconi",
+      "venue": "Fabra i Coats",
+      "room": "Polivalent 2",
+      "notes": "14:30 - 16:00",
+      "callTime": "14:25"
+    },
+    {
+      "date": "2026-10-15",
+      "time": "16:00",
+      "type": "Other",
+      "title": "Break",
+      "notes": "16:00 - 16:30",
+      "callTime": "15:55"
+    },
+    {
+      "date": "2026-10-15",
+      "time": "16:30",
+      "type": "Rehearsal",
+      "title": "Rehearsal with Anne Castex",
+      "venue": "Fabra i Coats",
+      "room": "Polivalent 2",
+      "notes": "16:30 - 18:30; no electronics",
+      "callTime": "16:25"
+    },
+    {
+      "date": "2026-10-15",
+      "time": "18:30",
+      "type": "Other",
+      "title": "Break",
+      "notes": "18:30 - 19:00",
+      "callTime": "18:25"
+    },
+    {
+      "date": "2026-10-15",
+      "time": "19:00",
+      "type": "Rehearsal",
+      "title": "Rehearsal with Riccardo Burato",
+      "venue": "Fabra i Coats",
+      "room": "Polivalent 2",
+      "notes": "19:00 - 19:30",
+      "callTime": "18:55"
+    },
+    {
+      "date": "2026-10-15",
+      "time": "19:30",
+      "type": "Rehearsal",
+      "title": "Rehearsal with Mingdu Li",
+      "venue": "Fabra i Coats",
+      "room": "Polivalent 2",
+      "notes": "19:30 - 20:00",
+      "callTime": "19:25"
+    },
+    {
+      "date": "2026-10-16",
+      "time": "09:30",
+      "type": "Rehearsal",
+      "title": "Rehearsal with Alex Vaughan",
+      "venue": "Fabra i Coats",
+      "room": "Polivalent 2",
+      "notes": "09:30 - 11:30",
+      "callTime": "09:25"
+    },
+    {
+      "date": "2026-10-16",
+      "time": "11:30",
+      "type": "Other",
+      "title": "Break",
+      "notes": "11:30 - 12:00",
+      "callTime": "11:25"
+    },
+    {
+      "date": "2026-10-16",
+      "time": "12:00",
+      "type": "Rehearsal",
+      "title": "Rehearsal with Luca Francesconi",
+      "venue": "Fabra i Coats",
+      "room": "Polivalent 2",
+      "notes": "12:00 - 13:00",
+      "callTime": "11:55"
+    },
+    {
+      "date": "2026-10-16",
+      "time": "13:00",
+      "type": "Meal",
+      "title": "Lunch break",
+      "notes": "13:00 - 14:30",
+      "callTime": "12:55"
+    },
+    {
+      "date": "2026-10-16",
+      "time": "14:30",
+      "type": "Rehearsal",
+      "title": "Rehearsal with Carolina Cerezo",
+      "venue": "Fabra i Coats",
+      "room": "Polivalent 2",
+      "notes": "14:30 - 15:45; with electronics",
+      "callTime": "14:25"
+    },
+    {
+      "date": "2026-10-16",
+      "time": "15:45",
+      "type": "Other",
+      "title": "Break",
+      "notes": "15:45 - 16:30",
+      "callTime": "15:40"
+    },
+    {
+      "date": "2026-10-16",
+      "time": "16:30",
+      "type": "Rehearsal",
+      "title": "Rehearsal with Anne Castex",
+      "venue": "Fabra i Coats",
+      "room": "Polivalent 2",
+      "notes": "16:30 - 18:30; with electronics",
+      "callTime": "16:25"
+    },
+    {
+      "date": "2026-10-17",
+      "time": "11:30",
+      "type": "Rehearsal",
+      "title": "Rehearsal with Alex Vaughan",
+      "venue": "Fabra i Coats",
+      "room": "Polivalent 2",
+      "notes": "11:30 - 12:45",
+      "callTime": "11:25"
+    },
+    {
+      "date": "2026-10-17",
+      "time": "12:45",
+      "type": "Other",
+      "title": "Break",
+      "notes": "12:45 - 13:00",
+      "callTime": "12:40"
+    },
+    {
+      "date": "2026-10-17",
+      "time": "13:00",
+      "type": "Rehearsal",
+      "title": "Rehearsal with Riccardo Burato",
+      "venue": "Fabra i Coats",
+      "room": "Polivalent 2",
+      "notes": "13:00 - 13:15",
+      "callTime": "12:55"
+    },
+    {
+      "date": "2026-10-17",
+      "time": "13:15",
+      "type": "Rehearsal",
+      "title": "Rehearsal with Mingdu Li",
+      "venue": "Fabra i Coats",
+      "room": "Polivalent 2",
+      "notes": "13:15 - 13:30",
+      "callTime": "13:10"
+    },
+    {
+      "date": "2026-10-17",
+      "time": "13:30",
+      "type": "Meal",
+      "title": "Lunch break",
+      "notes": "Approx. 13:30 - 14:30, according to timetable",
+      "callTime": "13:25"
+    },
+    {
+      "date": "2026-10-17",
+      "time": "14:30",
+      "type": "Other",
+      "title": "Break",
+      "notes": "14:30 - 14:45",
+      "callTime": "14:25"
+    },
+    {
+      "date": "2026-10-17",
+      "time": "15:00",
+      "type": "Rehearsal",
+      "title": "General rehearsal",
+      "venue": "Fabra i Coats",
+      "room": "Polivalent 2",
+      "notes": "15:00 - 17:00; concert order, except the first piece is rehearsed at the end",
+      "callTime": "14:55"
+    },
+    {
+      "date": "2026-10-17",
+      "time": "21:00",
+      "type": "Performance",
+      "title": "Concert ULYSSES Ensemble",
+      "venue": "Fabra i Coats",
+      "room": "Polivalent 2",
+      "notes": "21:00 - 22:00",
+      "callTime": "20:30"
+    },
+    {
+      "date": "2026-10-17",
+      "time": "22:00",
+      "type": "Other",
+      "title": "Dismantling",
+      "venue": "Fabra i Coats",
+      "room": "Polivalent 2",
+      "notes": "22:00 - 22:30",
+      "callTime": "21:55"
+    },
+    {
+      "date": "2026-10-18",
+      "type": "Other",
+      "title": "Hotel check-out · Hotel Sant Pau",
+      "venue": "Hotel Sant Pau",
+      "notes": "Hotel check-out deadline: before 12:00 (not a scheduled appointment). Your return transport leaves earlier in the day: check out before departing the hotel, with sufficient time to reach the airport or railway station. Do not wait until 12:00. Open in Maps for directions.",
+      "mapUrl": "https://maps.app.goo.gl/Q8s8csRqkAisB35i9",
+      "time": "12:00"
+    },
+    {
+      "date": "2026-10-18",
+      "time": "08:20",
+      "type": "Travel",
+      "title": "Airport arrival / travel check-in",
+      "venue": "Barcelona Airport",
+      "notes": "Suggested presentation time: 2 hours before departure. Vueling VY1882. Transport departs at 10:20."
+    },
+    {
+      "date": "2026-10-18",
+      "time": "10:20",
+      "type": "Travel",
+      "title": "Flight from Barcelona",
+      "venue": "Barcelona Airport",
+      "notes": "Vueling VY1882 · Barcelona → Berlin · Arrival 13:05."
+    },
+    {
+      "date": "2026-10-25",
+      "time": "18:00",
+      "type": "Other",
+      "title": "Mixtur Final Party",
+      "venue": "Sala Taro",
+      "notes": "Festival closing party",
+      "callTime": "17:55"
+    }
+  ]
+}
