@@ -289,6 +289,12 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   
 function getMapsURL(activity = {}) {
+  // Enlace específico definido en el JSON
+  if (activity.mapUrl) {
+    return activity.mapUrl;
+  }
+
+  // Enlace habitual del lugar
   if (
     activity.venue &&
     venueData[activity.venue]?.maps
