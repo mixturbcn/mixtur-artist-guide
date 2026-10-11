@@ -1,0 +1,216 @@
+{
+  "id": "continuum-xxi",
+  "artist": {
+    "name": "CONTINUUM XXI",
+    "category": "Ensemble",
+    "email": ""
+  },
+  "stay": {
+    "arrivalDate": "2026-10-14",
+    "arrivalTime": "10:00",
+    "arrivalPlace": "Museu de la Música",
+    "departureDate": "2026-10-17",
+    "departureTime": "11:00",
+    "departurePlace": "ESMUC"
+  },
+  "schedule": [
+    {
+      "date": "2026-10-14",
+      "time": "10:00",
+      "type": "Other",
+      "title": "Set-up",
+      "venue": "Museu de la Música",
+      "room": "Sala de Teclats",
+      "notes": "10:00 - 12:00. Harpsichord tuning takes place during set-up."
+    },
+    {
+      "date": "2026-10-14",
+      "time": "10:30",
+      "type": "Other",
+      "title": "Harpsichord tuning 1",
+      "venue": "Museu de la Música",
+      "room": "Sala de Teclats",
+      "notes": "10:30 - 11:30. Overlaps with set-up."
+    },
+    {
+      "date": "2026-10-15",
+      "time": "10:00",
+      "type": "Rehearsal",
+      "title": "Rehearsal with Lauri Supponen",
+      "venue": "Museu de la Música",
+      "room": "Sala de Teclats",
+      "notes": "10:00 - 12:00"
+    },
+    {
+      "date": "2026-10-15",
+      "time": "12:00",
+      "type": "Other",
+      "title": "Break",
+      "venue": "Museu de la Música",
+      "room": "Sala de Teclats",
+      "notes": "12:00 - 12:30"
+    },
+    {
+      "date": "2026-10-15",
+      "time": "12:30",
+      "type": "Rehearsal",
+      "title": "Rehearsal with Sanchez Verdu",
+      "venue": "Museu de la Música",
+      "room": "Sala de Teclats",
+      "notes": "12:30 - 13:30"
+    },
+    {
+      "date": "2026-10-15",
+      "time": "13:30",
+      "type": "Other",
+      "title": "Break",
+      "venue": "Museu de la Música",
+      "room": "Sala de Teclats",
+      "notes": "13:30 - 14:00"
+    },
+    {
+      "date": "2026-10-15",
+      "time": "14:00",
+      "type": "Other",
+      "title": "Harpsichord tuning 2",
+      "venue": "Museu de la Música",
+      "room": "Sala de Teclats",
+      "notes": "14:00 - 15:00"
+    },
+    {
+      "date": "2026-10-15",
+      "time": "15:00",
+      "type": "Rehearsal",
+      "title": "Rehearsal with Atabak Amjadi",
+      "venue": "Museu de la Música",
+      "room": "Sala de Teclats",
+      "notes": "15:00 - 16:00"
+    },
+    {
+      "date": "2026-10-15",
+      "time": "16:00",
+      "type": "Rehearsal",
+      "title": "Rehearsal with Luca Boroluzzi",
+      "venue": "Museu de la Música",
+      "room": "Sala de Teclats",
+      "notes": "16:00 - 17:00"
+    },
+    {
+      "date": "2026-10-15",
+      "time": "17:00",
+      "type": "Rehearsal",
+      "title": "CONTINUUM XXI rehearsal",
+      "venue": "Museu de la Música",
+      "room": "Sala de Teclats",
+      "notes": "17:00 - 21:00. Museum closes at 21:00."
+    },
+    {
+      "date": "2026-10-16",
+      "time": "10:00",
+      "type": "Other",
+      "title": "Schools arrival",
+      "venue": "Museu de la Música",
+      "room": "Sala de Teclats",
+      "notes": "10:00. Arrival time indicated in the production schedule."
+    },
+    {
+      "date": "2026-10-16",
+      "time": "10:30",
+      "type": "Rehearsal",
+      "title": "Open rehearsal with schools",
+      "venue": "Museu de la Música",
+      "room": "Sala de Teclats",
+      "notes": "10:30 - 11:15"
+    },
+    {
+      "date": "2026-10-16",
+      "time": "11:15",
+      "type": "Rehearsal",
+      "title": "CONTINUUM XXI rehearsal",
+      "venue": "Museu de la Música",
+      "room": "Sala de Teclats",
+      "notes": "11:15 - 17:00"
+    },
+    {
+      "date": "2026-10-16",
+      "time": "17:00",
+      "type": "Other",
+      "title": "Harpsichord tuning 3",
+      "venue": "Museu de la Música",
+      "room": "Sala de Teclats",
+      "notes": "17:00 - 18:00"
+    },
+    {
+      "date": "2026-10-16",
+      "time": "18:00",
+      "type": "Other",
+      "title": "Break",
+      "venue": "Museu de la Música",
+      "room": "Sala de Teclats",
+      "notes": "18:00 - 18:30"
+    },
+    {
+      "date": "2026-10-16",
+      "time": "18:30",
+      "type": "Other",
+      "title": "Doors open",
+      "venue": "Museu de la Música",
+      "room": "Sala de Teclats",
+      "notes": "18:30"
+    },
+    {
+      "date": "2026-10-16",
+      "time": "19:00",
+      "type": "Performance",
+      "title": "CONTINUUM XXI concert",
+      "venue": "Museu de la Música",
+      "room": "Sala de Teclats",
+      "notes": "19:00 - 20:30"
+    },
+    {
+      "date": "2026-10-16",
+      "time": "20:30",
+      "type": "Other",
+      "title": "Dismantling",
+      "venue": "Museu de la Música",
+      "room": "Sala de Teclats",
+      "notes": "20:30 - 22:00, according to the schedule grid."
+    },
+    {
+      "date": "2026-10-17",
+      "time": "09:00",
+      "type": "Other",
+      "title": "Reading Session: Baroque Violin with Stevan Jocic",
+      "venue": "ESMUC",
+      "room": "Ask the workshops coordinator",
+      "notes": "09:00 - 10:00. Two parallel reading sessions take place at this time."
+    },
+    {
+      "date": "2026-10-17",
+      "time": "09:00",
+      "type": "Other",
+      "title": "Reading Session: Baroque Flute with Stella Ziopoulou",
+      "venue": "ESMUC",
+      "room": "Ask the workshops coordinator",
+      "notes": "09:00 - 10:00. Two parallel reading sessions take place at this time."
+    },
+    {
+      "date": "2026-10-17",
+      "time": "10:00",
+      "type": "Other",
+      "title": "Reading Session: Baroque Violin with Dojin Jang",
+      "venue": "ESMUC",
+      "room": "Ask the workshops coordinator",
+      "notes": "10:00 - 11:00. Two parallel reading sessions take place at this time."
+    },
+    {
+      "date": "2026-10-17",
+      "time": "10:00",
+      "type": "Other",
+      "title": "Reading Session: Baroque Flute with Lucía López de Vergara Ortuño",
+      "venue": "ESMUC",
+      "room": "Ask the workshops coordinator",
+      "notes": "10:00 - 11:00. Two parallel reading sessions take place at this time."
+    }
+  ]
+}
