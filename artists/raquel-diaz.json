@@ -1,0 +1,148 @@
+{
+  "id": "raquel-diaz",
+  "artist": {
+    "name": "Raquel Díaz",
+    "category": "NEUMA",
+    "email": "neumaquartet@gmail.com"
+  },
+  "stay": {
+    "arrivalDate": "2026-10-16",
+    "arrivalTime": "13:00",
+    "arrivalPlace": "Fabra i Coats",
+    "departureDate": "2026-10-18",
+    "departureTime": "20:00",
+    "departurePlace": "Fabra i Coats"
+  },
+  "mainContact": {
+    "name": "Flavio de Sá",
+    "role": "Production Assistant",
+    "email": "produccio@mixturbcn.com",
+    "phone": "+34689211975"
+  },
+  "schedule": [
+    {
+      "date": "2026-10-16",
+      "time": "13:00",
+      "type": "Rehearsal",
+      "title": "Rehearsal Neuma",
+      "venue": "Fabra i Coats",
+      "room": "Sala d’assaig 1",
+      "callTime": "12:55",
+      "notes": "13:00H - 20:00H"
+    },
+    {
+      "date": "2026-10-16",
+      "time": "16:30",
+      "type": "Rehearsal",
+      "title": "Rehearsal with Lotta Wennäkoski",
+      "venue": "Fabra i Coats",
+      "room": "Sala d’assaig 1",
+      "callTime": "16:25",
+      "notes": "16:30H - 17:30H"
+    },
+    {
+      "date": "2026-10-17",
+      "time": "09:00",
+      "type": "Reading Session",
+      "title": "RS w/ Pengyi Li",
+      "venue": "ESMUC",
+      "room": "Ask to Workshop Coordinator",
+      "callTime": "08:55",
+      "notes": "9:00H - 10:00H"
+    },
+    {
+      "date": "2026-10-17",
+      "time": "10:00",
+      "type": "Reading Session",
+      "title": "RS w/ Daniele Delogu",
+      "venue": "ESMUC",
+      "room": "Ask to Workshop Coordinator",
+      "callTime": "09:55",
+      "notes": "10:00H - 11:00H"
+    },
+    {
+      "date": "2026-10-17",
+      "time": "11:00",
+      "type": "Reading Session",
+      "title": "RS w/ Guang Yang Yang",
+      "venue": "ESMUC",
+      "room": "Ask to Workshop Coordinator",
+      "callTime": "10:55",
+      "notes": "11:00H - 12:00H"
+    },
+    {
+      "date": "2026-10-17",
+      "time": "12:00",
+      "type": "Other",
+      "title": "Free time",
+      "notes": "12:00H - 16:30H"
+    },
+    {
+      "date": "2026-10-17",
+      "time": "16:30",
+      "type": "Rehearsal",
+      "title": "Rehearsal Neuma",
+      "venue": "Fabra i Coats",
+      "room": "BUC 3",
+      "callTime": "16:25",
+      "notes": "16:30H - 19:00H"
+    },
+    {
+      "date": "2026-10-18",
+      "time": "09:30",
+      "type": "Other",
+      "title": "Set-up",
+      "venue": "Fabra i Coats",
+      "room": "Polivalent 1",
+      "notes": "9:30H - 13:00H"
+    },
+    {
+      "date": "2026-10-18",
+      "time": "14:00",
+      "type": "Rehearsal",
+      "title": "Rehearsal with Rory Murphy",
+      "venue": "Fabra i Coats",
+      "room": "Polivalent 1",
+      "callTime": "13:55",
+      "notes": "14H - 14:45H"
+    },
+    {
+      "date": "2026-10-18",
+      "time": "15:00",
+      "type": "Rehearsal",
+      "title": "Rehearsal with Florencio Novoa",
+      "venue": "Fabra i Coats",
+      "room": "Polivalent 1",
+      "callTime": "14:55",
+      "notes": "15H - 15:45H"
+    },
+    {
+      "date": "2026-10-18",
+      "time": "16:15",
+      "type": "Rehearsal",
+      "title": "Rehearsal with Luis Carrillo",
+      "venue": "Fabra i Coats",
+      "room": "Polivalent 1",
+      "callTime": "16:10",
+      "notes": "16:15H - 17:00H"
+    },
+    {
+      "date": "2026-10-18",
+      "time": "19:00",
+      "type": "Performance",
+      "title": "Concert Neuma",
+      "venue": "Fabra i Coats",
+      "room": "Polivalent 1",
+      "callTime": "18:30",
+      "notes": "19:00H - 20:00H"
+    },
+    {
+      "date": "2026-10-25",
+      "time": "18:00",
+      "type": "Other",
+      "title": "Mixtur Final Party",
+      "venue": "Sala Taro",
+      "notes": "Festival closing party"
+    }
+  ]
+}
