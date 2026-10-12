@@ -1,0 +1,192 @@
+{
+  "id": "josep-lluis-galiana",
+  "artist": {
+    "name": "Josep Lluís Galiana",
+    "category": "Improvisation Workshop",
+    "email": ""
+  },
+  "stay": {
+    "arrivalDate": "2026-10-21",
+    "arrivalTime": "14:50",
+    "arrivalPlace": "Barcelona (RENFE from València)",
+    "departureDate": "2026-10-25",
+    "departureTime": "20:15",
+    "departurePlace": "Barcelona (RENFE to València)"
+  },
+  "mainContact": {
+    "name": "Flavio de Sá",
+    "role": "Production Assistant",
+    "email": "produccio@mixturbcn.com",
+    "phone": "+34689211975"
+  },
+  "hotel": {
+    "name": "Hotel Sant Pau",
+    "address": "Carrer de Sant Antoni Maria Claret, 173, 08041 Barcelona",
+    "url": "https://www.hotelsantpau.com/",
+    "checkIn": "From 13:00",
+    "checkOut": "Before 12:00",
+    "reception": "Open 24 hours",
+    "luggage": "Luggage storage available for arrivals before check-in",
+    "mapUrl": "https://maps.app.goo.gl/Q8s8csRqkAisB35i9"
+  },
+  "schedule": [
+    {
+      "date": "2026-10-21",
+      "time": "11:25",
+      "type": "Travel",
+      "title": "Train to Barcelona",
+      "venue": "RENFE",
+      "notes": "València → Barcelona · Departure 11:25, arrival 14:50. Train number not provided."
+    },
+    {
+      "date": "2026-10-21",
+      "time": "13:00",
+      "type": "Other",
+      "title": "Hotel check-in · Hotel Sant Pau",
+      "venue": "Hotel Sant Pau",
+      "notes": "Check-in available from 13:00 (not a scheduled appointment). Actual arrival time is not confirmed. Reception open 24 hours; luggage storage available.",
+      "mapUrl": "https://maps.app.goo.gl/Q8s8csRqkAisB35i9"
+    },
+    {
+      "date": "2026-10-22",
+      "time": "10:00",
+      "type": "Other",
+      "title": "Set up — Improvisation Workshop",
+      "venue": "Taller de Músics",
+      "room": "Sala Omega-Morente",
+      "notes": "10:00–10:30"
+    },
+    {
+      "date": "2026-10-22",
+      "time": "10:30",
+      "type": "Workshop",
+      "title": "Improvisation Workshop — Group class",
+      "venue": "Taller de Músics",
+      "room": "Sala Omega-Morente",
+      "notes": "10:30–13:15"
+    },
+    {
+      "date": "2026-10-22",
+      "time": "13:15",
+      "type": "Other",
+      "title": "Dismantling",
+      "venue": "Taller de Músics",
+      "room": "Sala Omega-Morente",
+      "notes": "13:15–13:30"
+    },
+    {
+      "date": "2026-10-23",
+      "time": "10:00",
+      "type": "Other",
+      "title": "Set up — Improvisation Workshop",
+      "venue": "Taller de Músics",
+      "room": "Sala Omega-Morente",
+      "notes": "10:00–10:30"
+    },
+    {
+      "date": "2026-10-23",
+      "time": "10:30",
+      "type": "Workshop",
+      "title": "Improvisation Workshop — Group class",
+      "venue": "Taller de Músics",
+      "room": "Sala Omega-Morente",
+      "notes": "10:30–13:15"
+    },
+    {
+      "date": "2026-10-23",
+      "time": "13:15",
+      "type": "Other",
+      "title": "Dismantling",
+      "venue": "Taller de Músics",
+      "room": "Sala Omega-Morente",
+      "notes": "13:15–13:30"
+    },
+    {
+      "date": "2026-10-24",
+      "time": "10:00",
+      "type": "Other",
+      "title": "Set up — Improvisation Workshop",
+      "venue": "Taller de Músics",
+      "room": "Sala Omega-Morente",
+      "notes": "10:00–10:30"
+    },
+    {
+      "date": "2026-10-24",
+      "time": "10:30",
+      "type": "Workshop",
+      "title": "Improvisation Workshop — Group class",
+      "venue": "Taller de Músics",
+      "room": "Sala Omega-Morente",
+      "notes": "10:30–13:15"
+    },
+    {
+      "date": "2026-10-24",
+      "time": "16:00",
+      "type": "Other",
+      "title": "Doors open — Improvisation Workshop Concert",
+      "venue": "Taller de Músics",
+      "room": "Sala Omega-Morente"
+    },
+    {
+      "date": "2026-10-24",
+      "time": "16:30",
+      "type": "Performance",
+      "title": "Concert — Improvisation Workshop",
+      "venue": "Taller de Músics",
+      "room": "Sala Omega-Morente",
+      "notes": "16:30–17:30"
+    },
+    {
+      "date": "2026-10-24",
+      "time": "17:30",
+      "type": "Other",
+      "title": "Dismantling",
+      "venue": "Taller de Músics",
+      "room": "Sala Omega-Morente",
+      "notes": "17:30–17:45"
+    },
+    {
+      "date": "2026-10-25",
+      "time": "10:00",
+      "type": "Other",
+      "title": "Lecture by Josep Lluís Galiana",
+      "venue": "ESMUC",
+      "room": "Sala de Cor",
+      "notes": "10:00–11:30"
+    },
+    {
+      "date": "2026-10-25",
+      "time": "12:00",
+      "type": "Other",
+      "title": "Hotel check-out · Hotel Sant Pau",
+      "venue": "Hotel Sant Pau",
+      "notes": "Check-out before 12:00 (deadline, not a scheduled appointment). Please check out before leaving the hotel, especially if travelling earlier.",
+      "mapUrl": "https://maps.app.goo.gl/Q8s8csRqkAisB35i9"
+    },
+    {
+      "date": "2026-10-25",
+      "time": "16:00",
+      "type": "Other",
+      "title": "Doors open — Entartete Improvisationen",
+      "venue": "ESMUC",
+      "room": "Sala d'Orquestra"
+    },
+    {
+      "date": "2026-10-25",
+      "time": "16:30",
+      "type": "Performance",
+      "title": "Concert — Entartete Improvisationen",
+      "venue": "ESMUC",
+      "room": "Sala d'Orquestra",
+      "notes": "16:30–17:30"
+    },
+    {
+      "date": "2026-10-25",
+      "time": "20:15",
+      "type": "Travel",
+      "title": "Train to València",
+      "venue": "RENFE",
+      "notes": "Barcelona → València · Departure 20:15, arrival 23:41. Train number not provided."
+    }
+  ]
+}

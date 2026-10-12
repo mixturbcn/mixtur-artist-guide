@@ -1,0 +1,185 @@
+{
+  "id": "claude-delangle",
+  "artist": {
+    "name": "Claude Delangle",
+    "category": "Saxophone Workshop",
+    "email": ""
+  },
+  "stay": {
+    "arrivalDate": "2026-10-21",
+    "arrivalTime": "",
+    "arrivalPlace": "",
+    "departureDate": "2026-10-24",
+    "departureTime": "",
+    "departurePlace": ""
+  },
+  "mainContact": {
+    "name": "Flavio de Sá",
+    "role": "Production Assistant",
+    "email": "produccio@mixturbcn.com",
+    "phone": "+34689211975"
+  },
+  "hotel": {
+    "name": "Hotel Sant Pau",
+    "address": "Carrer de Sant Antoni Maria Claret, 173, 08041 Barcelona",
+    "url": "https://www.hotelsantpau.com/",
+    "checkIn": "From 13:00",
+    "checkOut": "Before 12:00",
+    "reception": "Open 24 hours",
+    "luggage": "Luggage storage available for arrivals before check-in",
+    "mapUrl": "https://maps.app.goo.gl/Q8s8csRqkAisB35i9"
+  },
+  "schedule": [
+    {
+      "date": "2026-10-21",
+      "time": "13:00",
+      "type": "Other",
+      "title": "Hotel check-in · Hotel Sant Pau",
+      "venue": "Hotel Sant Pau",
+      "notes": "Check-in available from 13:00 (not a scheduled appointment). Actual arrival time is not confirmed. Reception open 24 hours; luggage storage available.",
+      "mapUrl": "https://maps.app.goo.gl/Q8s8csRqkAisB35i9"
+    },
+    {
+      "date": "2026-10-22",
+      "time": "09:30",
+      "type": "Rehearsal",
+      "title": "Rehearsal — Claude Delangle",
+      "venue": "PHONOS",
+      "room": "Sala Aranyó",
+      "notes": "09:30–11:45"
+    },
+    {
+      "date": "2026-10-22",
+      "time": "11:45",
+      "type": "Rehearsal",
+      "title": "Rehearsal with Manuel Valverde",
+      "venue": "PHONOS",
+      "room": "Sala Aranyó",
+      "notes": "11:45–12:30"
+    },
+    {
+      "date": "2026-10-22",
+      "time": "17:30",
+      "type": "Other",
+      "title": "Doors open — Electroacoustic Concert",
+      "venue": "PHONOS",
+      "room": "Sala Aranyó"
+    },
+    {
+      "date": "2026-10-22",
+      "time": "18:00",
+      "type": "Performance",
+      "title": "Electroacoustic Concert",
+      "venue": "PHONOS",
+      "room": "Sala Aranyó",
+      "notes": "18:00–19:00"
+    },
+    {
+      "date": "2026-10-22",
+      "time": "19:00",
+      "type": "Other",
+      "title": "Doors open + line check — Claude Delangle",
+      "venue": "PHONOS",
+      "room": "Sala Aranyó",
+      "notes": "19:00–19:30"
+    },
+    {
+      "date": "2026-10-22",
+      "time": "19:30",
+      "type": "Performance",
+      "title": "Concert — Claude Delangle",
+      "venue": "PHONOS",
+      "room": "Sala Aranyó",
+      "notes": "19:30–20:30"
+    },
+    {
+      "date": "2026-10-23",
+      "time": "09:30",
+      "type": "Workshop",
+      "title": "Masterclass with ESMUC students",
+      "venue": "ESMUC",
+      "room": "Sala d'Orquestra",
+      "notes": "09:30–12:30. Candela Teijeira — Sequenza IXb (Luciano Berio); Riko Yamada — Bug (Bruno Mantovani); Lucas Weise — Mysterious Morning III (Fuminori Tanada); Nicolás Arranz — Initial S (Kenji Sakai) or Échos éclos (Vincent David)."
+    },
+    {
+      "date": "2026-10-23",
+      "time": "13:30",
+      "type": "Workshop",
+      "title": "Saxophone Workshop — Individual class: Ģirts Grigorjevs",
+      "venue": "ESMUC",
+      "room": "Aula 322",
+      "notes": "13:30–14:30"
+    },
+    {
+      "date": "2026-10-23",
+      "time": "14:30",
+      "type": "Workshop",
+      "title": "Saxophone Workshop — Individual class: Trio Zir",
+      "venue": "ESMUC",
+      "room": "Aula 322",
+      "notes": "14:30–15:30"
+    },
+    {
+      "date": "2026-10-23",
+      "time": "15:30",
+      "type": "Workshop",
+      "title": "Saxophone Workshop — Individual class: Valeria Kučan",
+      "venue": "ESMUC",
+      "room": "Aula 322",
+      "notes": "15:30–16:30"
+    },
+    {
+      "date": "2026-10-23",
+      "time": "17:00",
+      "type": "Workshop",
+      "title": "Saxophone Workshop — Individual class: Paula Soriano Ibáñez",
+      "venue": "ESMUC",
+      "room": "Aula 322",
+      "notes": "17:00–18:00"
+    },
+    {
+      "date": "2026-10-23",
+      "time": "18:00",
+      "type": "Workshop",
+      "title": "Saxophone Workshop — Individual class: Victor Orts Langa",
+      "venue": "ESMUC",
+      "room": "Aula 322",
+      "notes": "18:00–19:00"
+    },
+    {
+      "date": "2026-10-23",
+      "time": "19:00",
+      "type": "Workshop",
+      "title": "Saxophone Workshop — Individual class: Martina Madini",
+      "venue": "ESMUC",
+      "room": "Aula 322",
+      "notes": "19:00–20:00"
+    },
+    {
+      "date": "2026-10-24",
+      "time": "11:30",
+      "type": "Other",
+      "title": "Doors open — Saxophone Workshop Concert",
+      "venue": "ESMUC",
+      "room": "Sala d'Orquestra"
+    },
+    {
+      "date": "2026-10-24",
+      "time": "11:45",
+      "type": "Performance",
+      "title": "Concert — Saxophone Workshop",
+      "venue": "ESMUC",
+      "room": "Sala d'Orquestra",
+      "notes": "11:45–14:00. Participants: Victor Orts, Trio Zir, Ģirts Grigorjevs, Paula Soriano, Martina Madini, Valeria Kučan."
+    },
+    {
+      "date": "2026-10-24",
+      "time": "12:00",
+      "type": "Other",
+      "title": "Hotel check-out · Hotel Sant Pau",
+      "venue": "Hotel Sant Pau",
+      "notes": "Check-out before 12:00 (deadline, not a scheduled appointment). Please check out before leaving the hotel, especially if travelling earlier.",
+      "mapUrl": "https://maps.app.goo.gl/Q8s8csRqkAisB35i9"
+    }
+  ]
+}
