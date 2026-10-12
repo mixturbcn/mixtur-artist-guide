@@ -1,0 +1,154 @@
+{
+  "id": "vertixe-sonora-ensemble",
+  "artist": {
+    "name": "Vertixe Sonora Ensemble",
+    "category": "Vertixe Sonora Ensemble",
+    "email": "direccionartistica@vertixesonora.gal"
+  },
+  "stay": {
+    "arrivalDate": "2026-10-23",
+    "arrivalTime": "12:00",
+    "arrivalPlace": "ESMUC",
+    "departureDate": "2026-10-25",
+    "departureTime": "13:00"
+  },
+  "mainContact": {
+    "name": "Catalina Riutort",
+    "role": "Production Assistant",
+    "email": "produccio@mixturbcn.com",
+    "phone": "+34680266911"
+  },
+  "schedule": [
+    {
+      "date": "2026-10-23",
+      "time": "12:00",
+      "type": "Rehearsal",
+      "title": "Rehearsal without electronics",
+      "venue": "ESMUC",
+      "room": "TBC",
+      "callTime": "11:30"
+    },
+    {
+      "date": "2026-10-23",
+      "time": "18:00",
+      "type": "Rehearsal",
+      "title": "Rehearsal with Sarah Nemtsov",
+      "venue": "ESMUC",
+      "room": "TBC"
+    },
+    {
+      "date": "2026-10-23",
+      "time": "19:00",
+      "type": "Rehearsal",
+      "title": "Rehearsal | Finn Mattingly - Davide Broggini - Mengyong Luo",
+      "notes": "20 minuts each composer",
+      "venue": "ESMUC",
+      "room": "TBC"
+    },
+    {
+      "date": "2026-10-24",
+      "time": "12:00",
+      "type": "Rehearsal",
+      "title": "Rehearsal | Piece by Núria Giménez Comas",
+      "notes": "Set up at 09:00",
+      "venue": "CMMB",
+      "room": "Auditori Toldrà"
+    },
+    {
+      "date": "2026-10-24",
+      "time": "15:30",
+      "type": "Rehearsal",
+      "title": "Rehearsal with Barblina Meierhans",
+      "venue": "CMMB",
+      "room": "Auditori Toldrà"
+    },
+    {
+      "date": "2026-10-24",
+      "time": "16:30",
+      "type": "Rehearsal",
+      "title": "Rehearsal with Sarah Nemtsov",
+      "venue": "CMMB",
+      "room": "Auditori Toldrà"
+    },
+    {
+      "date": "2026-10-24",
+      "time": "17:15",
+      "type": "Rehearsal",
+      "title": "Rehearsal | Miniatures",
+      "venue": "CMMB",
+      "room": "Auditori Toldrà"
+    },
+    {
+      "date": "2026-10-24",
+      "time": "17:45",
+      "type": "Rehearsal",
+      "title": "Rehearsal with Simon Steen-Andersen",
+      "venue": "CMMB",
+      "room": "Auditori Toldrà"
+    },
+    {
+      "date": "2026-10-24",
+      "time": "21:00",
+      "type": "Performance",
+      "title": "Concert | Vertixe Sonora Ensemble",
+      "venue": "CMMB",
+      "room": "Auditori Toldrà",
+      "callTime": "20:30"
+    },
+    {
+      "date": "2026-10-25",
+      "time": "10:00",
+      "type": "Reading Session",
+      "title": "Reading Session | Accordion",
+      "notes": "10:00 - Kalliopi Typaldou\n11:00 - Leander Ruprecht\n12:00 - Jose Antonio Xara Mas",
+      "venue": "ESMUC",
+      "room": "Aula 322",
+      "callTime": "09:45"
+    },
+    {
+      "date": "2026-10-25",
+      "time": "10:00",
+      "type": "Reading Session",
+      "title": "Reading Session | Saxophone",
+      "notes": "10:00 - Otto Rissanen\n11:00 - Daniel Álvarez\n12:00 - Emma Ebmeyer",
+      "venue": "ESMUC",
+      "room": "Aula 323",
+      "callTime": "09:45"
+    },
+    {
+      "date": "2026-10-25",
+      "time": "10:00",
+      "type": "Reading Session",
+      "title": "Reading Session | E-guitar",
+      "notes": "10:00 - Lena Michajłów\n11:00 - Pinelopi Oikonomea\n12:00 - Irene Ballesteros Pérez",
+      "venue": "ESMUC",
+      "room": "Aula 325",
+      "callTime": "09:45"
+    },
+    {
+      "date": "2026-10-25",
+      "time": "11:00",
+      "type": "Reading Session",
+      "title": "Reading Session",
+      "notes": "11:00 - Yi-Xin Huang\n12:00 - Hatice Duru Herdem",
+      "venue": "ESMUC",
+      "room": "Aula 324",
+      "callTime": "10:45"
+    },
+    {
+      "date": "2026-10-25",
+      "time": "18:00",
+      "type": "Other",
+      "title": "Mixtur Final Party",
+      "place": "Sala Taro"
+    },
+    {
+      "date": "2026-12-23",
+      "time": "16:00",
+      "type": "Rehearsal",
+      "title": "Rehearsal with Simon Steen-Andersen",
+      "venue": "ESMUC",
+      "room": "TBC"
+    }
+  ]
+}
